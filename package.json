@@ -1,0 +1,37 @@
+{
+  "name": "supports-electron",
+  "version": "1.0.0",
+  "description": "Check if electron is supported",
+  "license": "MIT",
+  "repository": "tobihrbr/supports-electron",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "fyi",
+    "test-watch": "fyi --watch"
+  },
+  "files": [
+    "index.js",
+    "platform.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "linux-distro": "^4.0.1",
+    "macos-version": "^4.0.1",
+    "win-release": "^2.0.0"
+  },
+  "devDependencies": {
+    "fyi": "^0.1.8"
+  },
+  "fyi": {
+    "ignore": []
+  }
+}
